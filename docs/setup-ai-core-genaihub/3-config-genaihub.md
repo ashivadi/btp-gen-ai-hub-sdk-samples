@@ -28,15 +28,17 @@ On order to use it, you have to set up Generative AI Hub.
 
     For more information on Executables, see [SAP Help Portal](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/models-and-scenarios-in-generative-ai-hub?locale=en-US&q=generative)
     
-    ![](images/32_genai_conf_step1.png)
+    ![](images/32_bedrock_genai_conf_step1.png)
 
 5. Provide the model name (see list of [available models on SAP Help Portal](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/models-and-scenarios-in-generative-ai-hub?locale=en-US&q=generative)). 
 
     Keep preset "latest" for model version.
 
-    ![](images/33_genai_conf_step2.png)
+    ![](images/33_bedrock_genai_conf_step2.png)
 
-6. You cannot provide input artifacts for this executable. Click "Next" --> "Review" and "Create".
+6. You cannot provide input artifacts for this executable. Click "Next" --> "Review" and "Create". It should look something like this:
+    
+    ![](images/33_bedrock_genai_conf_step3_review.png)
 
 
 ### Create a Deployment
