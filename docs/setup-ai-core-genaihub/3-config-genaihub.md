@@ -47,7 +47,7 @@ You can make LLM available for use by creating a virtual LLM deployment. You can
 
 1. After having the configuration created , click on "Create Deployment" in your just created Configuration.
 
-    ![](images/34_genai_createdeploy.png)
+    ![](images/34_bedrock_genai_createdeploy.png)
 
 2. Scenario, Executable and Configuration is already pre-filled if you create your deployment from your configuration.
 
