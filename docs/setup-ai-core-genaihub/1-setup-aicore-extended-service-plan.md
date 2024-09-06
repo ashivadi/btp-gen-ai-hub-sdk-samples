@@ -15,15 +15,19 @@ You can setup AI core and AI Core with different service plans.
  - Standard for "classic" AI.
  - Extended for using the Generative AI Hub
 
-In order to check your global entitlements of your Enterprise Account, open SPA BTP Cockpit and access your Global Account. 
+In order to check your global entitlements of your Enterprise Account, open SAP BTP Cockpit and access your Global Account. 
 
 Select "Entitlements" --> "Service Assignments" and search for "AI".
 
-In this case you see, that you are entitled for the SAP AI Core Service Plan "extended", which allows you to use Generative AI Hub. You can go on with this tutorial.
-
-In addition you need a **Cloud Foundry Runtime** entitlement.
-
 ![](images/1_aic_entitlements.png)
+
+In this case you see, that you are entitled for the SAP AI Core Service Plan "extended", which allows you to use Generative AI Hub. You can go on with this tutorial. If you do not have the required entitelements (i.e. SAP AI Core Service Plan "extended"), please review [this documentation](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-entitlements-and-quotas-for-subaccounts#configure-assignments-and-quotas-from-your-global-account) to add them. If you don't see the AI Core Extended entitlement listed, it's likely that your organization hasn't purchased or been granted access to this service plan.
+
+In addition you need a **Cloud Foundry Runtime** entitlement. Enable Cloud Foundry and Create a org in your subaccount (see [here](https://help.sap.com/docs/btp/sap-business-technology-platform/create-orgs)). The AI Core instance will be deployed in the cloud foundry space you create. See [this documenation](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/create-space?q=generative) for the procedure. Once you have created your space, ensure that you have added your BTP user to the space as a space member with Space Developer role (see [here](https://help.sap.com/docs/btp/sap-business-technology-platform/add-space-members-using-cockpit)). Please review [this answer](https://community.sap.com/t5/technology-q-a/how-to-assign-role-collection-to-users-being-cf-space-developer/qaq-p/12686075#U12686076) on SAP community for reference. 
+
+
+
+
 
 
 ### Setup AI Core with a Booster
@@ -77,7 +81,7 @@ For a manual setup, follow this guide [Initial Setup on SAP Help Portal](https:/
 
     ![](images/7_aic_boo_finished.png)
 
-8. In your Subaccount navigate to "Services" --> "Instances and Subscriptions" you can see the newly created SAP AI Core Instance with Service Plan "Standard" and the new Cloud Foundry Environment.
+8. In your Subaccount navigate to "Services" --> "Instances and Subscriptions" you can see the newly created SAP AI Core Instance with Service Plan "Extended" and the new Cloud Foundry Environment.
 
     ![](images/8_aic_result.png)
 

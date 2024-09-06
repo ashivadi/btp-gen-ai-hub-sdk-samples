@@ -61,7 +61,7 @@ For a manual setup, follow this guide [Initial Setup on SAP Help Portal](https:/
     ![](images/23_ail_result.png)
 
 
-8. Optional: Check your Role Assignments
+8. Check your Role Assignments - ensure you have all the roles in the provided screenshot.
 
     In your Subaccount, navigate to "Security" --> "Users". Select your user and select "Role Collections" tab.
 
