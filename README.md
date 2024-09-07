@@ -6,7 +6,7 @@
 
 ## Description
 
-The Generative AI Hub provides you instant access to a broad range of large language models (LLMs) from different providers, such as GPT-4 by Azure OpenAI or OpenSource Falcon-40b. 
+The Generative AI Hub provides you instant access to a broad range of large language models (LLMs) from different providers, such as GPT-4 by Azure OpenAI or Claude 3.5 Sonnet by Anthropic and AWS Bedrock or OpenSource Falcon-40b. 
 
 You can access the APIs of SAP AI Core Generative AI Hub or via the playground within SAP AI Launchpad.
 
