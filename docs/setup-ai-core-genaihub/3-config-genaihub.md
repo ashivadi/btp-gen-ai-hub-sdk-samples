@@ -30,9 +30,9 @@ On order to use it, you have to set up Generative AI Hub.
     
     ![](images/32_bedrock_genai_conf_step1.png)
 
-5. Provide the model name (see list of [available models on SAP Help Portal](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/models-and-scenarios-in-generative-ai-hub?locale=en-US&q=generative)). 
+5. Provide the `modelName` (see list of [available models on SAP Help Portal](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/models-and-scenarios-in-generative-ai-hub?locale=en-US&q=generative)). For example, use `anthropic--claude-3.5-sonnet`. Please note to remove all extra whitespaces.
 
-    Keep preset "latest" for model version.
+    Keep preset "latest" for model version. You may choose to pin the model version also, eg. `v1`.
 
     ![](images/33_bedrock_genai_conf_step2.png)
 
@@ -59,7 +59,7 @@ You can make LLM available for use by creating a virtual LLM deployment. You can
 
 3. Wait until the "Current Status" switches from "UNKNOWN" over "PENDING" to "RUNNING". This will take a minute.
 
-    ![](images/36_genai_status.png)
+    ![](images/36_bedrock_genai_status.png)
 
     After deployment you can switch to your Prompt Editor and try your LLM.
 
